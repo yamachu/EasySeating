@@ -11,7 +11,7 @@ $ dotnet build
 ## How to debug
 
 ```shell
-$ cd cd bin/Debug/netstandard2.0 && func start host
+$ cd bin/Debug/netstandard2.0 && func start host
 $ # open another shell
 $ curl -X POST 'here is local functions url' -d 'token=YOUR_TOKEN&response_url=ITS_DUMMY_URL&channel_id=YOUR_CHANNEL_ID&text=3 5 7 5'
 ```
